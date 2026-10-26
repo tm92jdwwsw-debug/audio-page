@@ -1,13 +1,57 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
+
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#fafaf8">
-<title>音声を聴く</title>
-<style>
-*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;background:#fafaf8;color:#262626;font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif}.player{width:min(88vw,420px);text-align:center}h1{font-size:1rem;font-weight:500;letter-spacing:.12em;margin:0 0 26px}audio{display:block;width:100%;height:54px}p{font-size:.75rem;color:#777;margin-top:22px}
-</style>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Audio</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      min-height: 100vh;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      background: white;
+
+    }
+
+    audio {
+
+      width: 85%;
+
+      max-width: 400px;
+
+    }
+
+  </style>
+
 </head>
-<body><main class="player"><h1>音声を聴く</h1><audio controls preload="metadata"><source src="zemiten_audio.mp3" type="audio/mpeg">お使いのブラウザでは音声を再生できません。</audio><p>▶ を押すと再生されます</p></main></body>
+
+<body>
+
+  <audio controls>
+
+    <source src="zennten_audio.mp3" type="audio/mpeg">
+
+  </audio>
+
+</body>
+
 </html>
+
+  
